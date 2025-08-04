@@ -18,7 +18,7 @@ export const SocketContextProvider = ({ children }) => {
   useEffect(() => {
     if (authUser) {
       // Create socket connection when user is logged in
-      const newSocket = io("https://chat-app-v2-lgjx.onrender.com", {
+      const newSocket = io("https://chat-app-yt-iqvl.onrender.com/", {
         query: {
           userId: authUser._id,
         },

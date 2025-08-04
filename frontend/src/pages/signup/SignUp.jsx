@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useSignup from "../../hooks/useSignup";
-import GenderCheckbox from "./GenderCheckBox";
+import GenderCheckbox from "./GenderCheckbox";
 import { Link } from "react-router-dom";
 const Signup = () => {
   const [inputs, setInputs] = useState({
@@ -26,7 +26,7 @@ const Signup = () => {
         </h1>
         <form onSubmit={handleSubmit}>
           <div>
-            <label  abel className="label p-2">
+            <label abel className="label p-2">
               <span className="text-base label-text">Full Name</span>
             </label>
             <input
